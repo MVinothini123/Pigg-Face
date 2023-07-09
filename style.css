@@ -1,0 +1,110 @@
+.rear{
+    border: 0.5px solid black;
+    height: 100px;
+    width: 50px;
+    background-color: pink;
+    border-radius: 60px 60px 0px 0px;
+    position: absolute;
+    left: 230px;
+    top: 60px;
+}
+.lear{
+    border: 0.5px solid black;
+    height: 100px;
+    width: 50px;
+    background-color: pink;
+    border-radius: 60px 60px 0px 0px;
+    position: absolute;
+    left: 330px;
+    top: 60px;
+}
+.face{
+    border: 0.5px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 80px;
+    left: 205px;
+}
+.reye{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.leye{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+.eyeball2{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 9px;
+    left: 8px;
+}
+.eyeball1{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 9px;
+    left: 8px;
+}
+.nose{
+    border: 0.5px solid black;
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    position: absolute;
+    top: 120px;
+    left: 60px; 
+    border-radius: 50px 50px 50px 50px;
+}
+.rnose{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 8px;
+    right: 9px;
+}
+.lnose{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
+.leye:hover{
+    transform: scale(1.5);
+}
+.reye:hover{
+    transform: scale(1.5);
+}
+.nose:hover{
+    transform: scale(1.5);
+}
+
+.rear:hover{
+    transform: scale(1.5);
+}
+.lear:hover{
+    transform: scale(1.5);
+}
